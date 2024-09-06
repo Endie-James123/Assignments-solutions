@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+body{
+    background-color: black;
+}
+.container{
+ width: 70%;
+ margin: auto; 
+ background-color: white;
+}
+.heading{
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.banner > img{
+    width: 100%;
+}
+h2{
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+    font-weight: 900;
+    padding: 10px 0;
+}
+.menu{
+    background-color: #fff;
+    display: block;
+    padding: 20px;
+}
+.tab{
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+thead{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+th{
+    padding: 10px;
+}
+
+td{
+    border: 2px solid black;
+    padding: 6px;
+}
+tbody >tr > :nth-child(3){
+    color: red;
+    text-align: center;
+}
+tbody >tr > :nth-child(2){
+    font-style: italic;
+}
+tbody >tr > :nth-child(1){
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: red;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
