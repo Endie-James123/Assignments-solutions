@@ -93,7 +93,7 @@ textarea, select{
     width: 100%;
     margin: 3px 0;
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 7px;
     border: 1px solid white;
     padding-left: 7px;
 }
@@ -125,6 +125,9 @@ textarea{
     padding: 6px;
     border-radius: 5px;
     border-style: none;
-    color: white;
-    font-weight: 700;
+    color:black;
+    font-weight: 900px;
 }
+/* .fa-paper-plane{
+    color: black;
+} */
