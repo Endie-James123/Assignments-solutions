@@ -1,0 +1,3 @@
+Width of the container: 70%
+body font : popins
+Heading font: pacifico

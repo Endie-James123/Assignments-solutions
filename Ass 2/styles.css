@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 70%;
+    /* height: 100%; */
+    background-color: red;
+    margin: auto;
+}
+.banner > img{
+    width: 100%;
+}
+.chefdiv{
+    background-color: red;
+    width: 150px; 
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    margin: -100px auto;
+    margin-bottom: -10px;
+}
+.chefdiv > img {
+    width: 100%;
+}
+.menu{
+    background: url(/images/heading-bg.png) no-repeat center center/cover;
+    width: 60%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+.tab{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.tab > table{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    height: 300px;
+}
+tr{
+    text-align: center;
+}
