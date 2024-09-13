@@ -33,6 +33,7 @@ body{
 }
 h3{
     color: #fff;
+    text-align: center;
 }
 .menu{
     background: url(/images/heading-bg.png) no-repeat center center/cover;
@@ -57,14 +58,14 @@ h3{
     color: white;
 }
 
-tr > :nth-child(3){
-    text-align: right;
-}
 tr > :nth-child(1){
     width: 230px;
 }
 tr > :nth-child(2){
     text-align: center;
+}
+tr > :nth-child(3){
+    text-align: right;
 }
 .tab > img{
     width: 100px;
@@ -75,8 +76,7 @@ tr > :nth-child(2){
 .foot{
     position: relative;
     background:url(/images/food-plate2.jpg) no-repeat center center/cover;
-    text-align: center;
-    height: 450px;
+    height: 460px;
 
 }
 .footcontent{
@@ -88,10 +88,10 @@ tr > :nth-child(2){
     width: 80%;
     margin: auto;
 }
-.order_form > input,
-textarea, select{
+.order_form > input, textarea, select, #submit{
     width: 100%;
-    margin: 3px 0;
+    margin: 5px 0;
+    color: white;
     background-color: transparent;
     border-radius: 7px;
     border: 1px solid white;
@@ -99,16 +99,12 @@ textarea, select{
 }
 select{
     height: 30px;
-    color: white;
-    background-color: transparent;
-
 }
 select > option{
     color: black;
 }
 input{
     height: 28px;
-    color: white;
     padding-left: 10px;
 }
 ::placeholder{
@@ -116,18 +112,12 @@ input{
 }
 textarea{
     height: 100px;
-    color: white;
 }
 #submit{
     background-color: yellow;
-    width: 100%;
-    height: 27px;
+    height: 30px;
     padding: 6px;
     border-radius: 5px;
-    border-style: none;
     color:black;
     font-weight: 900px;
 }
-/* .fa-paper-plane{
-    color: black;
-} */
